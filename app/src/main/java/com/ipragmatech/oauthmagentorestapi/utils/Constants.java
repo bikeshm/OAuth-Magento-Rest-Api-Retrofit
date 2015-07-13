@@ -3,10 +3,12 @@ package com.ipragmatech.oauthmagentorestapi.utils;
 
 public class Constants {
 
-	public static final String CONSUMER_KEY 	= "b3563b92822708750b22ab2b009e91ad";
-	public static final String CONSUMER_SECRET 	= "495611afb176a2db0e3a008b7908f073";
-
-	public static final String BASE_URL 		="http://gemtree.ipragmatech.com/";
+	//You Custom Consumer Key
+	public static final String CONSUMER_KEY = "xxxxxxxxxxxxxxxx";
+	//You Custom Consumer SECRET
+	public static final String CONSUMER_SECRET = "xxxxxxxxxxxxxxxx";
+	//Your Base URL for the site
+	public static final String BASE_URL = "http://www.xxx.com/";
 
 	public static final String REQUEST_URL 		= BASE_URL + "oauth/initiate";
 	public static final String ACCESS_URL 		= BASE_URL + "oauth/token";
