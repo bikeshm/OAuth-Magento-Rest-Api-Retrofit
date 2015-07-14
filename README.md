@@ -1,2 +1,4 @@
 # OAuthMagentoRestApi
-In official Magento documentation, one plain PHP class is written on OAuth authentication and Consume Magento REST web service. But it was very difficult to find an example to do the OAuth authentication for Android. I created this sample based on Android that connects to Magento REST API and authenticate/authorise the customer to access the product lists. 
+In official Magento documentation, one plain PHP class is written on OAuth authentication and Consume Magento REST web service. But it was very difficult to find an example to do the OAuth authentication for Android. We created this sample based on Android Platform that connects to Magento REST API and authenticate/authorise the customer to access the product lists.
+
+In this sample app, we have used <a href="http://square.github.io/retrofit/">Retrofit</a>, <a href="http://simple.sourceforge.net/home.php">Simple XML</a>, <a href="http://square.github.io/okhttp/">OkHttp</a> and <a href="https://github.com/google/google-api-java-client">Google API Client</a> to provide a sample code which can be used for developing mobile application for magento framework.
